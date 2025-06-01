@@ -1,5 +1,5 @@
 import { CGFobject, CGFappearance } from "../lib/CGF.js";
-import { MyTriangle } from "../tp4/MyTriangle.js";
+import { MyTriangle } from "./MyTriangle.js";
 
 export class MyFire extends CGFobject {
 constructor(scene, numFlames, texture, shader = null, x = 0, y = 0, z = 0)
